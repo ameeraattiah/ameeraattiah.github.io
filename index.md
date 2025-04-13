@@ -1,9 +1,14 @@
-# 👋 Hi, I'm Ameera!
-Welcome to my personal portfolio.
+# 👋 Hi, I’m Ameera Attiah
 
-I'm a computer science student specializing in AI and NLP.
+Welcome to my portfolio website! I'm a computer science student passionate about AI, NLP, and real-world applications of data.
 
-- 🔬 Capstone: Building high-quality Arabic academic datasets
-- 🌐 Check out my [GitHub](https://github.com/ameeraattiah)
+## 🔬 Projects
+- **Capstone:** Building Arabic academic datasets for LLMs
+- **ZeroFont Phishing Detection**: Deep learning model for phishing emails
+- **Veterinary Clinic System**: Built with MySQL
 
-Stay tuned for more updates!
+## 📫 Contact
+- [GitHub](https://github.com/ameeraattiah)
+- Email: ameeraattiah@example.com (update this!)
+
+More coming soon!
