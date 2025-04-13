@@ -1,0 +1,115 @@
+basics:
+  name: Ameera Attiah
+  label: AI & NLP Engineer | Computer Science Student
+  email: ameera.attiah@gmail.com
+  location:
+    city: Jeddah
+    country: Saudi Arabia
+  phone: "+966 55 070 2833"
+  profiles:
+    - network: GitHub
+      username: ameeraattiah
+      url: https://github.com/ameeraattiah
+    - network: LinkedIn
+      username: ameera-attiah-b6788a282
+      url: https://linkedin.com/in/ameera-attiah-b6788a282
+
+education:
+  - institution: Effat University
+    area: Artificial Intelligence
+    studyType: Bachelor of Computer Science
+    startDate: 2021-08
+    endDate: 2025-06
+    gpa: 3.93/4.0
+    courses:
+      - Natural Language Processing
+      - Deep Learning
+      - Software Engineering
+      - Data Science
+      - Computer Vision
+
+work:
+  - name: King Abdullah University of Science and Technology (KAUST)
+    position: AI Research Intern / Visiting Student
+    startDate: 2024-06
+    endDate: 2024-08
+    summary: |
+      Conducted research under Prof. Francesco Orabona, focusing on preprocessing strategies for Arabic LLMs. Performed ablation studies on LeNet-5 and analyzed the effect of input variations on model performance.
+    highlights:
+      - Designed Arabic dataset pipeline including tokenization, deduplication, and scoring
+      - Worked on KAUST IBEX cluster with SLURM and Python-based automation tools
+
+  - name: KAUST – Capstone Collaboration
+    position: Capstone Researcher
+    startDate: 2024-09
+    endDate: Present
+    summary: |
+      Developing a domain-specific, high-quality Arabic academic dataset using NLP filters and classification pipelines trained on CulturaX and ArabicWeb24.
+
+projects:
+  - name: MedicoMemory – Healthcare Record Management System
+    description: |
+      Full-stack software system that provides secure, efficient access to patient records for hospitals and clinics.
+    highlights:
+      - Developed access layers for patients and providers
+      - Ensured regulatory compliance and ease of use
+    url: https://github.com/ameeraattiah
+
+  - name: NLPulse – Dataset Preprocessing Platform
+    description: |
+      A web-based tool to upload, clean, normalize, and download Arabic text datasets for NLP and LLM use.
+    url: https://github.com/ameeraattiah/NLPulse
+
+  - name: Obesity Predictor – Machine Learning with R
+    description: |
+      Used classification models in R to identify key obesity risk factors in physical/lifestyle datasets.
+
+  - name: Autonomous Robotic Car with Obstacle Detection
+    description: |
+      Designed a real-time robotic car with IR and ultrasonic sensors to detect boundaries and navigate autonomously.
+
+publications:
+  - name: Revolutionizing Diabetes Prediction Models
+    publisher: UGRF 2024
+    summary: Leveraged feature reduction and classifiers to enhance diabetes diagnosis.
+  - name: Enzymatic Function Classification using GNNs
+    publisher: UGRF 2024
+    summary: Applied graph neural networks to ENZYMES dataset for protein classification.
+
+skills:
+  - name: Programming Languages
+    keywords: [Python, R, C++, Java, JavaScript, SQL]
+  - name: Tools & Frameworks
+    keywords: [PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Raspberry Pi]
+  - name: Expertise
+    keywords: [Machine Learning, NLP, Deep Learning, Data Visualization, Automation]
+  - name: Spoken Languages
+    keywords: [Arabic (native), English (IELTS 7.5)]
+
+certifications:
+  - name: Azure AI Solution Architect
+    issuer: Microsoft & SDAIA
+    date: 2024-11
+  - name: McKinsey Forward Program
+    issuer: McKinsey & Company
+    date: 2024-06
+  - name: Agile Project Management
+    issuer: Google
+    date: 2023-10
+  - name: Software Modeling with UML
+    issuer: HKUST
+    date: 2023-12
+
+awards:
+  - title: Winner – 6th Undergraduate Research Forum (UGRF)
+    date: 2024-11
+  - title: 3rd Place – IET GCC Robotics Challenge (Saudi Arabia)
+    date: 2024-12
+  - title: Dean’s List (2022, 2023, 2024)
+    date: Ongoing
+
+interests:
+  - name: Arabic NLP & dataset quality
+  - name: Applied AI in education and healthcare
+  - name: Building tools that empower people
+
