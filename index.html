@@ -1,88 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ameera Attiah</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-  <!-- Optional: Social Preview -->
-  <meta property="og:title" content="Ameera Attiah Portfolio" />
-  <meta property="og:description" content="AI Engineer | NLP Researcher | CS Student" />
-  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
 
+  <nav>
+    <div class="nav-left">Ameera Attiah</div>
+    <ul class="nav-right">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="darkModeToggle">🌙</button></li>
+    </ul>
+  </nav>
+
   <header>
+    <img src="my-notion-face-portrait.png" alt="Ameera's Avatar" class="avatar" />
     <h1>Ameera Attiah</h1>
     <p>AI Engineer • NLP Researcher • CS Student @ Effat University</p>
-    <a href="resume.pdf" class="btn" style="display:inline-block; margin-top:10px;" target="_blank">📄 Download My Resume</a>
+    <a href="resume.pdf" target="_blank" class="btn">📄 Download Resume</a>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a computer science student majoring in Artificial Intelligence at Effat University. I'm passionate about building AI tools with real-world impact — especially in Arabic NLP, educational technology, and healthcare.
-    </p>
-    <p>
-      I’ve interned at KAUST, conducted research on Arabic LLM datasets, and built full-stack platforms like <strong>NLPulse</strong> to automate dataset preprocessing.
-    </p>
-  </section>
+  <main>
 
-  <section id="projects">
-    <h2>Projects</h2>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a Computer Science student majoring in Artificial Intelligence at Effat University. I’m passionate about building AI tools with real-world impact — especially in Arabic NLP, education, and healthcare.
+      </p>
+      <p>
+        I’ve interned at KAUST, conducted research on Arabic LLM datasets, and built platforms like <strong>NLPulse</strong> to automate dataset preprocessing.
+      </p>
+    </section>
 
-    <div class="project">
-      <h3>NLPulse – Arabic Dataset Preprocessing Tool</h3>
-      <p>A full-stack tool that lets users upload raw Arabic datasets, apply normalization, deduplication, and download clean files for training LLMs.</p>
-      <p><a href="https://github.com/ameeraattiah/NLPulse" target="_blank">View on GitHub</a></p>
-    </div>
+    <section id="projects">
+      <h2>Projects</h2>
 
-    <div class="project">
-      <h3>MedicoMemory – Patient Record Management</h3>
-      <p>Streamlines medical data access for hospitals and clinics. Secure, user-friendly, and compliant with data policies.</p>
-    </div>
+      <div class="project">
+        <h3>NLPulse</h3>
+        <p>A full-stack tool to clean Arabic datasets for LLM training. Includes normalization, deduplication, and download.</p>
+        <a href="https://github.com/ameeraattiah/NLPulse" target="_blank">View on GitHub</a>
+      </div>
 
-    <div class="project">
-      <h3>Obesity Prediction Model</h3>
-      <p>Used R to analyze physical and lifestyle data and identify top contributors to obesity using ML classification.</p>
-    </div>
+      <div class="project">
+        <h3>MedicoMemory</h3>
+        <p>Healthcare record system for hospitals and clinics. Secure, accessible, and user-friendly.</p>
+      </div>
 
-    <div class="project">
-      <h3>Autonomous Robotic Car</h3>
-      <p>Designed a robotic car with ultrasonic and infrared sensors for edge and obstacle detection.</p>
-    </div>
+      <div class="project">
+        <h3>Obesity Prediction Model</h3>
+        <p>Used R to find lifestyle patterns contributing to obesity via ML classification.</p>
+      </div>
 
-  </section>
+      <div class="project">
+        <h3>Autonomous Robotic Car</h3>
+        <p>Built an AI-powered robot with sensors for navigation and edge detection.</p>
+      </div>
+    </section>
 
-  <section id="publications">
-    <h2>Publications</h2>
+    <section id="publications">
+      <h2>Publications</h2>
 
-    <div class="publication">
-      <h3>Revolutionizing Diabetes Prediction Models</h3>
-      <p>Feature reduction + classifiers for accurate prediction in diabetic patients – UGRF 2024.</p>
-    </div>
+      <div class="publication">
+        <h3>Revolutionizing Diabetes Prediction</h3>
+        <p>Feature reduction + classifiers for diabetes prediction – UGRF 2024</p>
+      </div>
 
-    <div class="publication">
-      <h3>Classifying Enzymatic Functions Using GNNs</h3>
-      <p>Applied graph neural networks to the ENZYMES dataset for protein function classification.</p>
-    </div>
+      <div class="publication">
+        <h3>Enzymatic Functions with GNNs</h3>
+        <p>Classified proteins using graph neural networks – UGRF 2024</p>
+      </div>
+    </section>
 
-  </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ameera.attiah@gmail.com">ameera.attiah@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/ameeraattiah" target="_blank">ameeraattiah</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ameera-attiah-b6788a282" target="_blank">ameera-attiah</a></p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:ameera.attiah@gmail.com">ameera.attiah@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/ameeraattiah" target="_blank">ameeraattiah</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ameera-attiah-b6788a282" target="_blank">ameera-attiah</a></p>
-  </section>
+  </main>
 
   <footer>
     <p>© 2025 Ameera Attiah</p>
   </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    // Dark mode toggle
+    const toggle = document.getElementById("darkModeToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      toggle.textContent = document.body.classList.contains("dark-mode") ? "☀️" : "🌙";
+    });
+  </script>
 
 </body>
 </html>
